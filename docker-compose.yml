@@ -1,9 +1,6 @@
-version: "3"
-
 services:
   app:
-    build:
-      context: .
+    image: gitvolk/my_app:tst
     ports:
       - "3003:3003"
     volumes:
